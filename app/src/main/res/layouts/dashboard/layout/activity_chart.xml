@@ -10,9 +10,9 @@
         android:id="@+id/container"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
-  
+
     <include
-        layout="@layout/floating_action_button"
+        layout="@layout/floating_action_button_"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end" />
