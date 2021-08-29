@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.myapplication">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="com.strategicerp.b2b.permission.C2D_MESSAGE" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+
+<!--
+    <permission
+        android:name="com.strategicerp.b2b.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+                    android:label="@string/title_activity_navigation"
+
+-->
+
+
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:allowBackup">
+        <activity android:name=".user_interface.home.view.FullScreenImageActivity"></activity>
+        <activity android:name=".user_interface.vdlist.VlistDlistFormActivity" />
+        <activity android:name=".user_interface.vlist.VlistActivity" />
+        <activity android:name=".user_interface.vlist.VlistFormActivity" />
+        <activity
+            android:name=".user_interface.launcher.SplashscreenActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".user_interface.launcher.NavigationActivity"
+            android:screenOrientation="portrait"
+
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity android:name=".user_interface.forms.view.OpenUrlActivity" />
+        <activity android:name=".user_interface.forms.view.FileViewerActivity" />
+        <activity
+            android:name=".user_interface.home.controller.WishlistProductDetailsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".user_interface.home.controller.ProductFilterActivity"
+            android:screenOrientation="portrait" />
+<!--        <activity-->
+<!--            android:name=".user_interface.home.controller.WishlistActivity"-->
+<!--            android:screenOrientation="portrait" />-->
+        <activity
+            android:name=".user_interface.home.controller.OpenWebPageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".user_interface.home.controller.PdfViewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".user_interface.home.controller.ProductDetailsActivity"
+            android:label="@string/product_details"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".user_interface.upcoming_meeting.view.UpcomingDetailActivity" />
+        <activity
+            android:name=".user_interface.dlist.view.TabDlistActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".user_interface.vdlist.TabVDlistActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".user_interface.upcoming_meeting.view.MapFilterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".user_interface.login.LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".user_interface.login.ValidateOtpActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".user_interface.dlist.view.DListFormActivity"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity android:name=".user_interface.summary.SummaryActivity" />
+        <activity
+            android:name=".user_interface.pendingtask.PendingTaskDetailsActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".user_interface.dashboard.view.ChartActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".user_interface.upcoming_meeting.view.MapViewPlacesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".user_interface.home.controller.ProductActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".projectdetails.GallaryActivity"
+            android:theme="@style/AppTheme"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden"></activity>
+        <activity android:name=".projectdetails.FullImageViewActivity"></activity>
+        <activity android:name="com.etiennelawlor.imagegallery.library.activities.ImageGalleryActivity"></activity>
+        <activity android:name=".presells.BuldingAtivity"></activity>
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="@string/google_maps_api_key" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <service
+            android:name=".firebase.MyFirebaseMessagingService"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths"
+                tools:replace="android:resource" />
+        </provider>
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.strategicerp.crm"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <!-- ressource file to create -->
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/patner_app_paths">
+            </meta-data>
+        </provider>
+    </application>
+
+</manifest>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:paddingBottom="@dimen/item_bottom_margin"
+    android:layout_height="wrap_content">
+
+    <include layout="@layout/title_textview"/>
+
+    <EditText
+        android:paddingStart="@dimen/_5dp"
+        android:paddingEnd="@dimen/_5dp"
+        android:drawableEnd="@drawable/ic_calendar"
+        android:drawableTint="@color/icon_grey"
+        android:drawablePadding="@dimen/fab_margin"
+        android:focusable="false"
+        android:textSize="@dimen/menu_text_size"
+        android:cursorVisible="false"
+        android:id="@+id/edit_text_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

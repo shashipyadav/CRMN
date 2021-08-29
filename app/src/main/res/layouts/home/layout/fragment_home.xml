@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:nestedScrollingEnabled="false"
+            android:descendantFocusability="blocksDescendants"
+            android:scrollbars="none"
+            android:id="@+id/rv_new_product"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:gravity="center"
+            android:visibility="gone"
+            android:id="@+id/no_items_view"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:background="@android:color/transparent"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/no_items_img"
+                    app:srcCompat="@drawable/ic_list"
+                    android:layout_width="@dimen/no_item_image_dimen"
+                    android:layout_gravity="center"
+                    android:layout_height="@dimen/no_item_image_dimen" />
+
+                <TextView
+                    android:layout_marginTop="@dimen/_8dp"
+                    android:textSize="@dimen/text_large"
+                    android:text="@string/no_result_found"
+                    android:layout_gravity="center"
+                    android:textColor="@color/colorPrimary"
+                    android:id="@+id/txt_msg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"/>
+
+                </LinearLayout>
+        </LinearLayout>
+
+</RelativeLayout>

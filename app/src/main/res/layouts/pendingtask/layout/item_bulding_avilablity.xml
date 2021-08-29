@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center">
+    <TextView
+        android:id="@+id/tv_bg_color"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+       android:background="@color/black" ></TextView>
+     <TextView
+         android:id="@+id/tv_status"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+         android:text="Available"
+       android:textColor="@color/black" ></TextView>
+
+
+</LinearLayout>

@@ -1,0 +1,137 @@
+<resources>
+    <string name="app_name">CRM</string>
+    <string name="google_maps_api_key" translatable="false">AIzaSyAuJ76Drz8XerDtpgohzclnW_OMuH3zlLo</string>
+
+    <string name="title_activity_navigation">Simbiosis</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="menu_home">Home</string>
+    <string name="home_second">Home Second</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="pending_task">Pending Task</string>
+    <string name="task_summary">Task Summary</string>
+    <string name="quick_link">Quick Links</string>
+    <string name="more">More</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+
+    <string name="lead_by_source">Lead By Source</string>
+    <string name="lead_by_status">Lead By Status</string>
+
+    <string name="error_network_timeout">Timeout Error</string>
+    <string name="error_no_connection">NoConnection Error</string>
+    <string name="error_auth_failure">AuthFailure Error</string>
+    <string name="error_servererror">Server Error</string>
+    <string name="error_network_error">Network Error</string>
+    <string name="error_parse_error">Parse Error</string>
+
+    <string name="type"> Type…</string>
+    <string name="form_not_found">Form Not Found</string>
+    <string name="please_enter_otp">Please enter otp</string>
+    <string name="loading_title">Loading ...</string>
+    <string name="check_mobile">"Please check your mobile number"</string>
+
+    <string name="no_internet_title">No Internet Connection!</string>
+    <string name="no_internet_message">Please check your internet connection and try again</string>
+    <string name="loading_message">Loading …</string>
+    <string name="mobile_not_found">Mobile Number not found in the system!</string>
+    <string name="menu_logout">Log Out</string>
+    <string name="menu_wishlist">Wishlist</string>
+    <string name="add">Add</string>
+    <string name="no_data">No Data Available</string>
+    <string name="filter">Filter</string>
+    <string name="company">Company</string>
+    <string name="projects">Projects</string>
+    <string name="attended_by">Attended By</string>
+    <string name="start_date">Start Date</string>
+    <string name="end_date">End Date</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">Ok</string>
+    <string name="filter_results">Filter Results</string>
+    <string name="filter_more">More…</string>
+    <string name="confirm_message">Are you sure you wish to continue ?</string>
+    <string name="chart_summary">Chart Summary</string>
+    <string name="homeSectionModel">Product</string>
+    <string name="source">Source</string>
+    <string name="count">Count</string>
+    <string name="more_options">MORE OPTIONS (TABS)</string>
+    <string name="show_more">Show More</string>
+    <string name="show_less">Show Less</string>
+    <string name="lead_no">Lead No</string>
+    <string name="organisation_name">Organisation Name</string>
+    <string name="lead_estimate">Lead Estimate</string>
+    <string name="location">Location</string>
+    <string name="lead_by">Lead By</string>
+    <string name="responsible_person">Responsible Person</string>
+    <string name="map_view">Map View</string>
+    <string name="selected_count">%1$d selected</string>
+    <string name="description">Description</string>
+    <string name="add_to_cart">Add to Cart</string>
+    <string name="add_to_wishlist">Add To Wishlist</string>
+    <string name="saved_to_wishlist">Saved To Wishlist</string>
+    <string name="share">Share</string>
+    <string name="share_product">SHARE THIS PRODUCT</string>
+    <string name="product_details">Product Details</string>
+    <string name="document">Document</string>
+    <string name="doc_brochure">Document Brochure</string>
+    <string name="doc_technical">Technical Document</string>
+    <string name="size">Size</string>
+    <string name="design">Design</string>
+    <string name="width">Width</string>
+    <string name="height">Height</string>
+    <string name="length">Length</string>
+    <string name="item_code">Item Code</string>
+    <string name="hs_code">HS Code</string>
+    <string name="item_category">Item Category</string>
+    <string name="item_group">Item Group</string>
+    <string name="material_type">Material Type</string>
+    <string name="abc_code">ABC Name</string>
+    <string name="sku_code">SKU Code</string>
+    <string name="sku_name">SKU Name</string>
+    <string name="item_desc">Item Description</string>
+    <string name="pri_unit">Pri Unit</string>
+    <string name="m2_per_box">M2 Per Box</string>
+    <string name="mar_item_code">Mar Item Code</string>
+    <string name="design_code">Design Code</string>
+    <string name="ft2_per_box">FT2 Per Box</string>
+    <string name="launch_year">Launch Year</string>
+    <string name="pcs_per_box">Pcs Per Box</string>
+    <string name="gross_weight">Gross Weight</string>
+    <string name="sub_category">Sub Category</string>
+    <string name="surface_code">Surface Code</string>
+    <string name="category_code">Category Code</string>
+    <string name="supplier_code">Supplier Code</string>
+    <string name="vertical_code">Vertical Code</string>
+    <string name="vertical_name">Vertical Name</string>
+    <string name="warehouse_code">Warehouse Code</string>
+    <string name="billing_uom_code">Billing UOM Code</string>
+    <string name="storage_uom_code">Storage UOM Code</string>
+    <string name="ordering_uom_code">Ordering UOM Code</string>
+    <string name="more_details">Click for more details</string>
+    <string name="no_result_found">No Results Found</string>
+    <string name="default_notification_channel_id">101</string>
+    <string name="choose_file">Choose File</string>
+    <string name="quicklink_removed_message">Form removed from Quick Links</string>
+    <string name="quicklink_saved_message">Form saved successfully in Quick Links</string>
+    <string name="permission_required">Permission Required</string>
+    <string name="website_link_na">Website link Not Available</string>
+
+
+</resources>

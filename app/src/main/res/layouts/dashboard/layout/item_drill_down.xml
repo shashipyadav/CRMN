@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <!--Lead NO -->
+        <TextView
+            android:padding="@dimen/table_row_padding"
+            android:background="@drawable/cell_shape"
+            android:layout_centerVertical="true"
+            android:gravity="center_horizontal"
+            android:layout_width="150dp"
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/lead_no"
+            android:layout_height="match_parent" />
+
+        <!-- Organisation Name   -->
+        <TextView
+            android:padding="@dimen/table_row_padding"
+            android:background="@drawable/cell_shape"
+            android:text="@string/organisation_name"
+            android:layout_centerVertical="true"
+            android:id="@+id/org_name"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/lead_no"
+            android:gravity="center_horizontal"
+            android:textColor="@color/colorPrimary"
+            android:layout_toEndOf="@id/lead_no" />
+
+        <!-- Product -->
+        <TextView
+            android:padding="@dimen/table_row_padding"
+            android:background="@drawable/cell_shape"
+            android:text="@string/homeSectionModel"
+            android:layout_centerVertical="true"
+            android:id="@+id/product"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/org_name"
+            android:gravity="center_horizontal"
+            android:textColor="@color/colorPrimary"
+            android:layout_toEndOf="@id/org_name" />
+
+        <!-- Lead Estimate -->
+        <TextView
+            android:padding="@dimen/table_row_padding"
+            android:background="@drawable/cell_shape"
+            android:layout_centerVertical="true"
+            android:id="@+id/lead_est"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/product"
+            android:gravity="center_horizontal"
+            android:textColor="@color/colorPrimary"
+            android:layout_toEndOf="@id/product" />
+
+        <!-- Location -->
+        <TextView
+            android:padding="@dimen/table_row_padding"
+            android:background="@drawable/cell_shape"
+            android:layout_centerVertical="true"
+            android:id="@+id/location"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/lead_est"
+            android:gravity="center_horizontal"
+            android:textColor="@color/colorPrimary"
+            android:layout_toEndOf="@id/lead_est" />
+
+        <!-- Lead by -->
+        <TextView
+            android:padding="@dimen/table_row_padding"
+            android:background="@drawable/cell_shape"
+            android:layout_centerVertical="true"
+            android:id="@+id/lead_by"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/location"
+            android:gravity="center_horizontal"
+            android:textColor="@color/colorPrimary"
+            android:layout_toEndOf="@id/location" />
+
+<!--        Responsible Person-->
+        <TextView
+            android:padding="@dimen/table_row_padding"
+            android:background="@drawable/cell_shape"
+            android:layout_centerVertical="true"
+            android:id="@+id/resp_person"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/lead_by"
+            android:gravity="center_horizontal"
+            android:textColor="@color/colorPrimary"
+            android:layout_toEndOf="@id/lead_by" />
+
+    </TableRow>

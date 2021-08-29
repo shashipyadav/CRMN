@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1bc4ad</color>
+    <color name="colorPrimaryDark">#0d0f1e</color>
+    <color name="colorAccent">#1bc4ad</color>
+
+    <color name="light_grey">#E0E0E0</color>
+    <color name="background_bg">#F5F6F7</color>
+    <color name="menu_text_parent_color">#283349</color>
+    <color name="menu_text_child_color">#000</color>
+    <color name="menu_text_child_color_dark">#C0A37E</color>
+    <color name="divider">#E2E2E2</color>
+    <color name="white">#FFFFFF</color>
+    <color name="icon_grey">#A8A8A8</color>
+    <color name="text_title">#ADB3C2</color>
+    <color name="placeholder">#5D636F</color>
+    <color name="dark_red">#A61C11</color>
+    <color name ="blue">#0064B4</color>
+    <color name="red">#FF0000</color>
+    <color name="light_text_title">#C1C7D6</color>
+    <color name="lighter_text_title">#D7DEEE</color>
+    <color name="black">#000</color>
+    <color name="no_items_img">#0E0E0E</color>
+    <color name="orange_light">#ffffbb33</color>
+    <color name="red_light">#EF9A9A</color>
+    <color name="highlight">#000</color>
+    <color name="et_bottom_border">#818080</color>
+    <color name="transparent_black">#16000000</color>
+    <color name="read_only">#191818</color>    <!-- #F5F5F5 -->
+    <color name="grey">#EAEBEC</color>
+    <color name="gray">#BABFC0</color>
+    <color name="image_tint">@color/black</color>
+    <color name="simpolo_icon_color">#C7C7C7</color>
+    <color name="colorGrey">#dddddd</color>
+    <color name="background">#dddddd</color>
+
+</resources>

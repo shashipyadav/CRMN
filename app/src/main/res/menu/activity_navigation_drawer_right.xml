@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_wishlist"
+        android:icon="@drawable/ic_heart_filled"
+        android:title="@string/menu_wishlist"
+        android:visible="false"/>
+
+    <item
+        android:id="@+id/nav_logout"
+        android:icon="@drawable/ic_logout"
+        android:title="@string/menu_logout"
+        />
+<!--    <item-->
+<!--        android:id="@+id/b_nav_dashboard"-->
+<!--        android:icon="@drawable/ic_menu_dashboard"-->
+<!--        android:title="@string/dashboard" />-->
+<!--    <item-->
+<!--        android:id="@+id/b_nav_pending_task"-->
+<!--        android:icon="@drawable/ic_menu_pending"-->
+<!--        android:title="@string/pending_task" />-->
+<!--    <item-->
+<!--        android:id="@+id/b_nav_quicklink"-->
+<!--        android:icon="@drawable/ic_menu_quick_link"-->
+<!--        android:title="@string/quick_link" />-->
+<!--    <item-->
+<!--        android:id="@+id/b_nav_more"-->
+<!--        android:icon="@drawable/ic_menu_more"-->
+<!--        android:title="@string/more" />-->
+</menu>

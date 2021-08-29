@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    app:cardBackgroundColor="@color/black"
+    app:cardCornerRadius="@dimen/_5dp"
+    android:layout_marginEnd="@dimen/_8dp"
+    android:layout_marginBottom="@dimen/_8dp"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:background="@color/black"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.cardview.widget.CardView
+                app:cardCornerRadius="@dimen/_5dp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+
+                <com.example.myapplication.customviews.SquareImageView
+                    android:id="@+id/product_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true" />
+            </androidx.cardview.widget.CardView>
+
+            <ImageView
+                android:visibility="gone"
+                android:layout_marginEnd="@dimen/_8dp"
+                android:layout_marginTop="@dimen/_8dp"
+                android:padding="@dimen/_5dp"
+                android:id="@+id/img_delete"
+                app:srcCompat="@drawable/ic_delete_red"
+                android:background="@drawable/circle_transparent_black_bg"
+                android:layout_alignParentEnd="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:background="@color/black"
+            android:padding="@dimen/_10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:background="@color/black"
+                android:textSize="@dimen/text_small"
+                android:gravity="center"
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:ellipsize="end"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+

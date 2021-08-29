@@ -1,0 +1,479 @@
+{
+  "project_info": {
+    "project_number": "471899619603",
+    "firebase_url": "https://strategicerp-1225.firebaseio.com",
+    "project_id": "strategicerp-1225",
+    "storage_bucket": "strategicerp-1225.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:471899619603:android:c4b1cc8ae0d16e87771ae6",
+        "android_client_info": {
+          "package_name": "com.itaakash.android.nativecustomerapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "471899619603-sc18vhn3b8h0su90g4ovjv88ukctrddl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJ-8Nixova1wDhTXlTqAD7kNS0SPWxmvU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "471899619603-a0n12nj6ltqem8ss2n6f4mvn7rqrgl1a.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "471899619603-15jbhih5pqrt0t4k5e027ufq7u053vnl.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.strategicErp.essApp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:471899619603:android:c2564d87db09195d771ae6",
+        "android_client_info": {
+          "package_name": "com.itaakash.android.nativepartnerapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "471899619603-sc18vhn3b8h0su90g4ovjv88ukctrddl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJ-8Nixova1wDhTXlTqAD7kNS0SPWxmvU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "471899619603-a0n12nj6ltqem8ss2n6f4mvn7rqrgl1a.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "471899619603-15jbhih5pqrt0t4k5e027ufq7u053vnl.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.strategicErp.essApp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:471899619603:android:e5a55bf691cd2ed1771ae6",
+        "android_client_info": {
+          "package_name": "com.itaakash.ess"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "471899619603-sc18vhn3b8h0su90g4ovjv88ukctrddl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJ-8Nixova1wDhTXlTqAD7kNS0SPWxmvU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "471899619603-a0n12nj6ltqem8ss2n6f4mvn7rqrgl1a.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "471899619603-15jbhih5pqrt0t4k5e027ufq7u053vnl.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.strategicErp.essApp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:471899619603:android:fd2f3b7054598b23771ae6",
+        "android_client_info": {
+          "package_name": "com.itaakash.iitb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "471899619603-sc18vhn3b8h0su90g4ovjv88ukctrddl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJ-8Nixova1wDhTXlTqAD7kNS0SPWxmvU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "471899619603-a0n12nj6ltqem8ss2n6f4mvn7rqrgl1a.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "471899619603-15jbhih5pqrt0t4k5e027ufq7u053vnl.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.strategicErp.essApp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:471899619603:android:5f85a340054199b8771ae6",
+        "android_client_info": {
+          "package_name": "com.itaakash.iitbc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "471899619603-sc18vhn3b8h0su90g4ovjv88ukctrddl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJ-8Nixova1wDhTXlTqAD7kNS0SPWxmvU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "471899619603-a0n12nj6ltqem8ss2n6f4mvn7rqrgl1a.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "471899619603-15jbhih5pqrt0t4k5e027ufq7u053vnl.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.strategicErp.essApp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:471899619603:android:e317ddf4b0b09ef5771ae6",
+        "android_client_info": {
+          "package_name": "com.itaakash.qrscanner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "471899619603-sc18vhn3b8h0su90g4ovjv88ukctrddl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJ-8Nixova1wDhTXlTqAD7kNS0SPWxmvU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "471899619603-a0n12nj6ltqem8ss2n6f4mvn7rqrgl1a.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "471899619603-15jbhih5pqrt0t4k5e027ufq7u053vnl.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.strategicErp.essApp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:471899619603:android:bc6a851163524b05",
+        "android_client_info": {
+          "package_name": "com.itaakash.strategicerp1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "471899619603-sc18vhn3b8h0su90g4ovjv88ukctrddl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJ-8Nixova1wDhTXlTqAD7kNS0SPWxmvU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "471899619603-a0n12nj6ltqem8ss2n6f4mvn7rqrgl1a.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "471899619603-15jbhih5pqrt0t4k5e027ufq7u053vnl.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.strategicErp.essApp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:471899619603:android:4b7a5d4ac1441812771ae6",
+        "android_client_info": {
+          "package_name": "com.itaakash.strategicerp2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "471899619603-sc18vhn3b8h0su90g4ovjv88ukctrddl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJ-8Nixova1wDhTXlTqAD7kNS0SPWxmvU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "471899619603-a0n12nj6ltqem8ss2n6f4mvn7rqrgl1a.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "471899619603-15jbhih5pqrt0t4k5e027ufq7u053vnl.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.strategicErp.essApp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:471899619603:android:c703457be870dd02771ae6",
+        "android_client_info": {
+          "package_name": "com.itaakash.wh"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "471899619603-sc18vhn3b8h0su90g4ovjv88ukctrddl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJ-8Nixova1wDhTXlTqAD7kNS0SPWxmvU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "471899619603-a0n12nj6ltqem8ss2n6f4mvn7rqrgl1a.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "471899619603-15jbhih5pqrt0t4k5e027ufq7u053vnl.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.strategicErp.essApp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:471899619603:android:52abdffb10accf41771ae6",
+        "android_client_info": {
+          "package_name": "com.strategicerp.crm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "471899619603-sc18vhn3b8h0su90g4ovjv88ukctrddl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJ-8Nixova1wDhTXlTqAD7kNS0SPWxmvU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "471899619603-a0n12nj6ltqem8ss2n6f4mvn7rqrgl1a.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "471899619603-15jbhih5pqrt0t4k5e027ufq7u053vnl.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.strategicErp.essApp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:471899619603:android:ea591eb7755bd5ef771ae6",
+        "android_client_info": {
+          "package_name": "com.strategicerp.nativeapp2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "471899619603-sc18vhn3b8h0su90g4ovjv88ukctrddl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJ-8Nixova1wDhTXlTqAD7kNS0SPWxmvU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "471899619603-a0n12nj6ltqem8ss2n6f4mvn7rqrgl1a.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "471899619603-15jbhih5pqrt0t4k5e027ufq7u053vnl.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.strategicErp.essApp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:471899619603:android:a975751ca08ed46a771ae6",
+        "android_client_info": {
+          "package_name": "in.ac.iitb.corontine"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "471899619603-sc18vhn3b8h0su90g4ovjv88ukctrddl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJ-8Nixova1wDhTXlTqAD7kNS0SPWxmvU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "471899619603-a0n12nj6ltqem8ss2n6f4mvn7rqrgl1a.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "471899619603-15jbhih5pqrt0t4k5e027ufq7u053vnl.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.strategicErp.essApp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:471899619603:android:2e9e7b429f8f672a771ae6",
+        "android_client_info": {
+          "package_name": "in.ac.iitb.ieor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "471899619603-sc18vhn3b8h0su90g4ovjv88ukctrddl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJ-8Nixova1wDhTXlTqAD7kNS0SPWxmvU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "471899619603-a0n12nj6ltqem8ss2n6f4mvn7rqrgl1a.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "471899619603-15jbhih5pqrt0t4k5e027ufq7u053vnl.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.strategicErp.essApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

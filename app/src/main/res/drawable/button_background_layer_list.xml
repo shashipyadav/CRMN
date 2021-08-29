@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:gravity="end"
+        android:left="10dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#3B5998" />
+            <corners android:radius="3dp" />
+        </shape>
+    </item>
+    <item
+        android:drawable="@drawable/diagonal_shape"
+        android:gravity="start"
+        android:right="20dp" />
+
+    <item
+        android:drawable="@drawable/ic_arrow_forward"
+        android:gravity="end|center_vertical"
+        android:right="5dp" />
+
+</layer-list>

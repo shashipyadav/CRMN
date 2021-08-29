@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.ActionBar"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:minHeight="@dimen/abc_action_bar_default_height_material"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:theme="@style/ToolbarTheme"
+        android:elevation="2dp"
+        >
+    </androidx.appcompat.widget.Toolbar>
+    <FrameLayout
+    android:id="@+id/pending_task_content_frame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+</FrameLayout>
+</LinearLayout>
+
+<!--<ScrollView-->
+<!--    xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    android:background="@drawable/background_bg"-->
+<!--    android:padding="@dimen/activity_horizontal_margin"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent">-->
+
+<!--    <LinearLayout-->
+<!--        android:orientation="vertical"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent">-->
+
+<!--        <RelativeLayout-->
+<!--            android:layout_gravity="center"-->
+<!--            android:visibility="gone"-->
+<!--            android:id="@+id/rlLayout"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content">-->
+
+<!--        <RelativeLayout-->
+<!--            android:id="@+id/layout_txt_img"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content">-->
+
+<!--            <TextView-->
+<!--                android:visibility="gone"-->
+<!--                android:layout_centerVertical="true"-->
+<!--                android:background="@drawable/circle_blue_bg_with_border"-->
+<!--                android:text="S"-->
+<!--                android:textColor="@color/white"-->
+<!--                android:gravity="center"-->
+<!--                android:textSize="25sp"-->
+<!--                android:id="@+id/txt_char"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"/>-->
+
+<!--            <ImageView-->
+<!--                app:srcCompat="@drawable/ic_profile"-->
+<!--                android:layout_width="60dp"-->
+<!--                android:layout_height="60dp"/>-->
+
+<!--        </RelativeLayout>-->
+
+<!--            <TextView-->
+<!--                android:textStyle="bold"-->
+<!--                android:layout_margin="12dp"-->
+<!--                android:layout_below="@id/layout_txt_img"-->
+<!--                android:id="@+id/txt_user_name"-->
+<!--                android:gravity="center_horizontal"-->
+<!--                android:textSize="@dimen/text_large"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"/>-->
+<!--        </RelativeLayout>-->
+
+<!--    <androidx.recyclerview.widget.RecyclerView-->
+<!--        android:scrollbars="none"-->
+<!--        android:id="@+id/recyclerview"-->
+<!--        android:overScrollMode="never"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content" />-->
+
+
+<!--        <include layout="@layout/recyclerview_dynbutton"/>-->
+<!--    </LinearLayout>-->
+
+
+<!--</ScrollView>-->

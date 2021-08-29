@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="@android:color/transparent"
+    android:id="@+id/parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/item_bottom_margin">
+
+   <include layout="@layout/title_textview"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:textIsSelectable="true"
+            android:layout_alignParentStart="true"
+            android:paddingStart="@dimen/_5dp"
+            android:paddingEnd="@dimen/_5dp"
+            android:textSize="@dimen/menu_text_size"
+            android:imeOptions="actionDone"
+            android:inputType="textEmailAddress|textNoSuggestions"
+            android:id="@+id/edit_text"
+            android:layout_toStartOf="@id/button_action"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ImageButton
+            android:visibility="gone"
+            android:layout_centerInParent="true"
+            android:background="@drawable/ic_phone"
+            android:id="@+id/button_action"
+            android:layout_alignParentEnd="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+
+
+
+</LinearLayout>

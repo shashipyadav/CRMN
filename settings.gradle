@@ -1,0 +1,3 @@
+include ':gallary_image'
+include ':app'
+rootProject.name='CustomNavigation'
