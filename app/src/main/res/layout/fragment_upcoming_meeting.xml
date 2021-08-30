@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/pullToRefresh"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/iv_filter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:padding="8dp"
+            android:hint="Search"
+            android:drawablePadding="@dimen/activity_horizontal_margin"
+            android:drawableLeft="@drawable/ic_search"
+            android:background="@drawable/edit_text_border"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:id="@+id/recylerview_map"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="?attr/actionBarSize"/>
+
+        <include layout="@layout/no_items_layout"/>
+
+    </LinearLayout>
+
+
+
+
+       <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/material_type"
+            android:layout_marginEnd="@dimen/fab_margin"
+            android:layout_marginBottom="60dp"
+            android:src="@drawable/ic_filter"
+            android:background="@drawable/fab_background"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fabSize="mini"
+            android:layout_gravity="bottom|end" />
+
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/material_map"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/fab_margin"
+            android:src="@drawable/baseline_map_black_24dp"
+            android:background="@drawable/fab_background"
+            android:tint="@color/simpolo_icon_color"
+            android:layout_marginBottom="120dp"
+            android:layout_gravity="bottom|end"
+            android:contentDescription="@string/map_view"
+            app:fabSize="mini"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+<!--<RelativeLayout-->
+<!--    xmlns:fab="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:fitsSystemWindows="true">-->
+
+
+<!--    <EditText-->
+<!--        android:id="@+id/iv_filter"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:padding="8dp"-->
+<!--        android:hint="Search"-->
+<!--        android:drawablePadding="@dimen/activity_horizontal_margin"-->
+<!--        android:drawableLeft="@drawable/ic_search"-->
+<!--        android:background="@drawable/edit_text_border"/>-->
+
+
+
+<!--    <RelativeLayout-->
+<!--        android:layout_below="@+id/iv_filter"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent">-->
+<!--        <androidx.recyclerview.widget.RecyclerView-->
+<!--            android:id="@+id/recylerview_map"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_marginTop="5dp"/>-->
+
+<!--        <include layout="@layout/no_items_layout"/>-->
+
+<!--    </RelativeLayout>-->
+
+<!--    <com.google.android.material.floatingactionbutton.FloatingActionButton-->
+<!--        android:id="@+id/material_type"-->
+<!--        android:layout_marginEnd="@dimen/fab_margin"-->
+<!--        android:layout_marginBottom="?attr/actionBarSize"-->
+<!--        android:src="@drawable/ic_filter"-->
+<!--        android:background="@drawable/fab_background"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        fab:fabSize="mini"-->
+<!--        android:layout_alignParentEnd="true" />-->
+
+
+
+<!--    <com.google.android.material.floatingactionbutton.FloatingActionButton-->
+<!--        android:id="@+id/material_map"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_marginEnd="@dimen/fab_margin"-->
+<!--        android:src="@drawable/baseline_map_black_24dp"-->
+<!--        android:background="@drawable/fab_background"-->
+<!--        android:tint="@color/simpolo_icon_color"-->
+<!--        android:layout_marginBottom="100dp"-->
+<!--        android:contentDescription="@string/map_view"-->
+<!--        fab:fabSize="mini"/>-->
+<!--</RelativeLayout>-->
+

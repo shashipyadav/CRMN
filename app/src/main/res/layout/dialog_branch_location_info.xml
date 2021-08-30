@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:gravity="center"
+        android:layout_gravity="right"
+        android:id="@+id/type"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+
+        android:text="Directions"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:background="@drawable/button_tag_bg"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/marker"
+            android:layout_marginTop="5dp"></ImageView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+       >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:id="@+id/tv_name"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"></TextView>
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:id="@+id/tv_address"
+            android:textColor="#8e8e8e"
+            ></TextView>
+    </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:padding="10dp">
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:id="@+id/tv_delaer"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingLeft="10dp"
+            android:layout_weight="1"></TextView>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/contact_us_call"
+            android:layout_marginTop="2dp"></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:id="@+id/phone"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingLeft="10dp"></TextView>
+
+    </LinearLayout>
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/contact_us_email"
+            android:layout_marginTop="2dp"></ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:id="@+id/tv_eamil"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingLeft="10dp"></TextView>
+
+    </LinearLayout>
+
+    <Button
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:gravity="center"
+        android:layout_gravity="right"
+        android:id="@+id/button_dire"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:text="Directions"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:layout_margin="8dp"
+        android:textColor="@color/white"
+        android:background="@drawable/button_blue_bg"
+        />
+
+</LinearLayout>

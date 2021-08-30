@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/circle_constraint"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_24dp"
+        android:layout_marginEnd="@dimen/_24dp"
+        app:cardElevation="2dp"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/ic_menu_white"
+        tools:ignore="VectorDrawableCompat" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabFilter"
+        app:fabSize="mini"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:cardElevation="2dp"
+        app:layout_constraintCircle="@id/fabMenu"
+        app:layout_constraintCircleAngle="0"
+        app:layout_constraintCircleRadius="80dp"
+        app:srcCompat="@drawable/ic_filter"
+        tools:ignore="MissingConstraints,VectorDrawableCompat" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabSummary"
+        app:fabSize="mini"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:cardElevation="2dp"
+        app:layout_constraintCircle="@id/fabMenu"
+        app:layout_constraintCircleAngle="315"
+        app:layout_constraintCircleRadius="80dp"
+        app:srcCompat="@drawable/ic_summary_white"
+        tools:ignore="MissingConstraints,VectorDrawableCompat" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabShare"
+        app:fabSize="mini"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:cardElevation="2dp"
+        app:layout_constraintCircle="@id/fabMenu"
+        app:layout_constraintCircleAngle="270"
+        app:layout_constraintCircleRadius="80dp"
+        app:srcCompat="@drawable/ic_share_white"
+        tools:ignore="MissingConstraints,VectorDrawableCompat" />
+
+    <androidx.constraintlayout.widget.Group
+        android:visibility="gone"
+        android:id="@+id/group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:constraint_referenced_ids="fabFilter,fabSummary,fabShare"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

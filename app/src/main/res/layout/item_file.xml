@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="@android:color/transparent"
+    android:id="@+id/parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="@dimen/item_bottom_margin"
+    android:paddingBottom="@dimen/item_bottom_margin">
+
+    <include layout="@layout/title_textview"/>
+
+
+    <RelativeLayout
+        android:descendantFocusability="afterDescendants"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/menu_text_size"
+            android:id="@+id/btn_choose_file"
+            android:background="@drawable/button_blue_bg"
+            android:textColor="@color/white"
+            android:paddingStart="@dimen/activity_horizontal_margin"
+            android:paddingEnd="@dimen/activity_horizontal_margin"
+            android:text="@string/choose_file"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/txt_file_name"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/btn_choose_file"
+            android:layout_alignParentEnd="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
