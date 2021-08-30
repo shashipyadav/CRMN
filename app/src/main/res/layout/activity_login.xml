@@ -1,100 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?>
-<ScrollView android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    xmlns:android="http://schemas.android.com/apk/res/android"
-   >
-
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-   >
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="130dp"
-        android:gravity="center"
-        android:orientation="vertical">
-
-        <LinearLayout
-            android:layout_gravity="center"
-            android:gravity="center"
-            android:orientation="vertical"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="20dp"
-                android:letterSpacing="0.01"
-                android:text="Otp Verification"
-                android:textAllCaps="true"
-                android:textColor="@color/black"
-                android:textSize="@dimen/text_large" />
-
-            <TextView
-                android:layout_width="350dp"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="20dp"
-                android:gravity="center"
-                android:letterSpacing="0.01"
-                android:text=" We'll send you a one time password on this mobile number"
-                android:textColor="@color/black"
-                android:textSize="@dimen/text_normal"
-                />
-
-        </LinearLayout>
-
-
-
-
-        <TextView
-            android:layout_marginTop="50dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text=" Enter Mobile No"
-            android:textColor="@color/black"
-            android:textSize="16sp" />
-
-        <EditText
-            android:layout_marginTop="@dimen/activity_horizontal_margin"
-            android:background="@drawable/bottom_border_black_bg"
-            android:id="@+id/et_mobile"
-            android:paddingBottom="8dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginEnd="16dp"
-            android:gravity="center"
-            android:inputType="numberDecimal"
-            android:maxLength="10"
-            android:textColor="@color/black"
-            android:textSize="15sp" />
-
-        <Button
-            android:id="@+id/btn_submit"
-            style="@style/Widget.AppCompat.Button.Colored"
-            android:layout_width="250dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:text="Get Server list" />
-    </LinearLayout>
-
-
-    <ImageView
-        android:id="@+id/img_logo"
-        android:adjustViewBounds="true"
-        android:layout_gravity="center"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="80dp"
-        android:background="@drawable/logo_simpolo_white"
-        android:gravity="center"
-        android:visibility="gone"/>
-
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+<LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical">
+<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_gravity="center" android:layout_marginTop="130dp" android:gravity="center" android:orientation="vertical">
+<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_gravity="center" android:gravity="center" android:orientation="vertical">
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20dp" android:letterSpacing="0.01" android:text="Otp Verification" android:textAllCaps="true" android:textColor="@color/black" android:textSize="@dimen/text_large"/>
+<TextView android:layout_width="350dp" android:layout_height="wrap_content" android:layout_marginBottom="20dp" android:gravity="center" android:letterSpacing="0.01" android:text=" We'll send you a one time password on this mobile number" android:textColor="@color/black" android:textSize="@dimen/text_normal"/>
+</LinearLayout>
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="50dp" android:gravity="center" android:textColor="@color/black" android:textSize="16sp"/>
+<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="30dp" android:layout_marginRight="30dp" android:orientation="horizontal">
+<com.hbb20.CountryCodePicker android:id="@+id/ccp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8dp" android:background="@drawable/bottom_border_black_bg" app:ccpDialog_showPhoneCode="true" app:ccp_countryAutoDetectionPref="SIM_ONLY" app:ccp_showNameCode="false" app:ccp_showPhoneCode="false"/>
+<EditText android:id="@+id/et_mobile" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="13dp" android:background="@drawable/bottom_border_black_bg" android:hint=" Enter Mobile No" android:inputType="number" android:paddingBottom="8dp" android:textColor="@color/black" android:textSize="15sp"/>
+</LinearLayout>
+<Button android:id="@+id/btn_submit" style="@style/Widget.AppCompat.Button.Colored" android:layout_width="250dp" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="Get Server list"/>
+</LinearLayout>
+<ImageView android:id="@+id/img_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center" android:layout_marginTop="80dp" android:adjustViewBounds="true" android:background="@drawable/logo_simpolo_white" android:gravity="center" android:visibility="gone"/>
 </LinearLayout>
 </ScrollView>
