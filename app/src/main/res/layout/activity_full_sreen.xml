@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#F0EBF8">
+    <ImageView
+        android:id="@+id/iv_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#652BE2"
+        android:rotation="90"
+        android:src="@drawable/ic_arrow_down_black"
+        android:tint="#fff"
+        />
+
+    <com.etiennelawlor.imagegallery.library.ui.TouchImageView
+        android:id="@+id/iv_full_screen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+    </com.etiennelawlor.imagegallery.library.ui.TouchImageView>
+    <TextView
+        android:id="@+id/tv_dec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hjvbckwejbcvekwj"
+        android:gravity="center"
+        android:padding="10dp"
+        android:background="@drawable/bg_rounded"
+        android:layout_gravity="center"
+        android:textColor="#000">
+
+    </TextView>
+
+</LinearLayout>
